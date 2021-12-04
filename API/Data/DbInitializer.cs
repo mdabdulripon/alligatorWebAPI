@@ -18,7 +18,7 @@ namespace API.Data
                     Name = "Angular Speedster Board 2000",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 20000,
+                    Price = 200,
                     PictureUrl = "/images/products/sb-ang1.png",
                     ProductCategory = "Angular",
                     ProductType = "Boards",
@@ -29,7 +29,7 @@ namespace API.Data
                 {
                     Name = "Green Angular Board 3000",
                     Description = "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-                    Price = 15000,
+                    Price = 150,
                     PictureUrl = "/images/products/sb-ang2.png",
                     ProductCategory = "Angular",
                     ProductType = "Boards",
@@ -41,7 +41,7 @@ namespace API.Data
                     Name = "Core Board Speed Rush 3",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 18000,
+                    Price = 180,
                     PictureUrl = "/images/products/sb-core1.png",
                     ProductCategory = "NetCore",
                     ProductType = "Boards",
@@ -53,7 +53,7 @@ namespace API.Data
                     Name = "Net Core Super Board",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 30000,
+                    Price = 300,
                     PictureUrl = "/images/products/sb-core2.png",
                     ProductCategory = "NetCore",
                     ProductType = "Boards",
@@ -65,7 +65,7 @@ namespace API.Data
                     Name = "React Board Super Whizzy Fast",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 25000,
+                    Price = 250,
                     PictureUrl = "/images/products/sb-react1.png",
                     ProductCategory = "React",
                     ProductType = "Boards",
@@ -77,7 +77,7 @@ namespace API.Data
                     Name = "ProductTypescript Entry Board",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 12000,
+                    Price = 120,
                     PictureUrl = "/images/products/sb-ts1.png",
                     ProductCategory = "ProductTypeScript",
                     ProductType = "Boards",
@@ -89,7 +89,7 @@ namespace API.Data
                     Name = "Core Blue Hat",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1000,
+                    Price = 10,
                     PictureUrl = "/images/products/hat-core1.png",
                     ProductCategory = "NetCore",
                     ProductType = "Hats",
@@ -101,7 +101,7 @@ namespace API.Data
                     Name = "Green React Woolen Hat",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 8000,
+                    Price = 80,
                     PictureUrl = "/images/products/hat-react1.png",
                     ProductCategory = "React",
                     ProductType = "Hats",
@@ -113,7 +113,7 @@ namespace API.Data
                     Name = "Purple React Woolen Hat",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
+                    Price = 15,
                     PictureUrl = "/images/products/hat-react2.png",
                     ProductCategory = "React",
                     ProductType = "Hats",
@@ -125,7 +125,7 @@ namespace API.Data
                     Name = "Blue Code Gloves",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1800,
+                    Price = 18,
                     PictureUrl = "/images/products/glove-code1.png",
                     ProductCategory = "VS Code",
                     ProductType = "Gloves",
@@ -137,7 +137,7 @@ namespace API.Data
                     Name = "Green Code Gloves",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
+                    Price = 15,
                     PictureUrl = "/images/products/glove-code2.png",
                     ProductCategory = "VS Code",
                     ProductType = "Gloves",
@@ -149,7 +149,7 @@ namespace API.Data
                     Name = "Purple React Gloves",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1600,
+                    Price = 16,
                     PictureUrl = "/images/products/glove-react1.png",
                     ProductCategory = "React",
                     ProductType = "Gloves",
@@ -161,7 +161,7 @@ namespace API.Data
                     Name = "Green React Gloves",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1400,
+                    Price = 14,
                     PictureUrl = "/images/products/glove-react2.png",
                     ProductCategory = "React",
                     ProductType = "Gloves",
@@ -173,7 +173,7 @@ namespace API.Data
                     Name = "Redis Red Boots",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 25000,
+                    Price = 250,
                     PictureUrl = "/images/products/boot-redis1.png",
                     ProductCategory = "Redis",
                     ProductType = "Boots",
@@ -185,7 +185,7 @@ namespace API.Data
                     Name = "Core Red Boots",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 18999,
+                    Price = 189,
                     PictureUrl = "/images/products/boot-core2.png",
                     ProductCategory = "NetCore",
                     ProductType = "Boots",
@@ -197,7 +197,7 @@ namespace API.Data
                     Name = "Core Purple Boots",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 19999,
+                    Price = 199,
                     PictureUrl = "/images/products/boot-core1.png",
                     ProductCategory = "NetCore",
                     ProductType = "Boots",
@@ -208,7 +208,7 @@ namespace API.Data
                 {
                     Name = "Angular Purple Boots",
                     Description = "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-                    Price = 15000,
+                    Price = 150,
                     PictureUrl = "/images/products/boot-ang2.png",
                     ProductCategory = "Angular",
                     ProductType = "Boots",
@@ -220,7 +220,7 @@ namespace API.Data
                     Name = "Angular Blue Boots",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 18000,
+                    Price = 180,
                     PictureUrl = "/images/products/boot-ang1.png",
                     ProductCategory = "Angular",
                     ProductType = "Boots",
