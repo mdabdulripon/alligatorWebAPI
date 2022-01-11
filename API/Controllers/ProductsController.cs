@@ -1,6 +1,4 @@
-using System.Collections.Generic;
 using System.Linq;
-using System.Text.Json;
 using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
@@ -43,5 +41,15 @@ namespace API.Controllers
             if (product == null) return NotFound();
             return product;
         }
+
+
+        [HttpGet("filters")]
+        public async Task<IActionResult> GEtFilters()
+        {
+            var categories = await _context.Products.Select(c => c.ProductCategory).Distinct().ToListAsync();
+            var types = await _context.Products.Select(c => c.ProductType).Distinct().ToListAsync();
+            return Ok(new { categories, types });
+        }
+
     }
 }
