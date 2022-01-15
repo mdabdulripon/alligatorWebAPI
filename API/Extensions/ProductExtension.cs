@@ -35,12 +35,12 @@ namespace API.Extensions
 
             if (!string.IsNullOrEmpty(categories))
             {
-                categoryList.AddRange(categories.ToLower().Split(""));
+                categoryList.AddRange(categories.ToLower().Split(","));
             }
 
             if (!string.IsNullOrEmpty(types))
             {
-                typeList.AddRange(types.ToLower().Split(""));
+                typeList.AddRange(types.ToLower().Split(","));
             }
 
             query = query.Where(c => categoryList.Count == 0 || categoryList.Contains(c.ProductCategory.ToLower()));
